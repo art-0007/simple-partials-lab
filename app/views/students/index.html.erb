@@ -1,0 +1,11 @@
+<div>
+<ul>
+<% @students.each do |student|%>
+
+<li><%=link_to student.name, student%><br/>
+<%=student.hometown%><br/>
+<%=student.birthday%></li><br/>
+
+<%end%>
+</ul>
+</div>
